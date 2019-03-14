@@ -21,7 +21,6 @@ def comment_array(sub):
     return comment_arr
 
 
-
 r = praw.Reddit('bot1', user_agent="AskReddit Scraper .2 by Orel")
 sub_array = []
 # Initial loop to establish titles and comments in array
